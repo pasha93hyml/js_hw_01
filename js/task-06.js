@@ -1,7 +1,7 @@
 let total = 0,
     input = prompt('Введите число', 0)
 
-for(let i = 0; ; i++) {
+for(let i = 0; ; i += 1) {
     if(input != null) {
         total += Number(input)
         input = prompt('Введите число', 0)
