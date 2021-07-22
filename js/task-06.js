@@ -1,7 +1,7 @@
 let total = 0,
     input = prompt('Введите число', 0)
 
-for(let i = 0; input !== null; i += 1) {
+for(let i = 0; input; i += 1) {
     if(!isNaN(Number(input))) {
         total += Number(input)
         input = prompt('Введите число', 0)
