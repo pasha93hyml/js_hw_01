@@ -2,7 +2,7 @@ const ADMIN_PASSWORD = 'adminpass'
 let message,
     password = prompt('Введите ваш пароль', '')
 
-if(password == null) {
+if(!password) {
     message = 'Отменено пользователем!'
 } else if(password == ADMIN_PASSWORD) {
     message = 'Добро пожаловать!'
