@@ -3,7 +3,7 @@ let credits = 35500,
     amountDroidsToBuy = prompt('Сколько дроидов Вы желаете купить?', '0'),
     totalPrice = 0
 
-if(amountDroidsToBuy == null) {
+if(!amountDroidsToBuy) {
     console.log('Отменено пользователем!')
 } else {
     totalPrice = amountDroidsToBuy * pricePerDroid // неявно привело к типу Number
